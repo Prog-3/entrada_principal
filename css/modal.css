@@ -1,0 +1,116 @@
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .closebtn:hover {
+    color: black;
+  }
+  .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+  .success {
+    padding: 20px;
+    background-color: #4caf50;
+    color: white;
+  }
+  .menudesplegable {
+    color: #777;
+    margin-right: 12px;
+    margin-top: 9px;
+    border: none;
+    background: #f8f8f8;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+  .espacio_head {
+    padding-top: 110px;
+    background-image: linear-gradient(
+      -90deg,
+      #1251ae 0,
+      #0074ff 50%,
+      #1251ae 100%
+    );
+  }
+  .modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+  }
+  @media (max-width: 768px) {
+    .modal-dialog {
+      min-height: calc(100vh - 20px);
+    }
+  }
+  .modal-title {
+    font-size: 16px;
+    color: #f1f1f8;
+  }
+  .modal-body {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding-top: 30px !important;
+  }
+  .input {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+  }
+  .table-responsive {
+    min-height: 100vh;
+  }
+  .pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 0;
+    border-radius: 4px;
+  }
+  .botonCrear {
+    margin-top: 8px;
+  }
